@@ -1,0 +1,354 @@
+*{
+    margin: 1;
+    padding: 0;
+  }
+  body{
+      background-color: navy;
+  }
+  .parent {
+      position: relative;
+      top: 0;
+      left: 0;
+  }
+  .image1 {
+      width: 100%;
+      height: 800px;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+  }
+  .image2 {
+      height: 400px;
+      width: 400px;
+      position: absolute;
+      top: 560px;
+      left: 550px;
+      border: 4px black solid;
+      border-radius: 50%;
+    }
+  
+  .line{
+    width: 100%;
+    border: 4px solid white;
+    position: relative;
+  
+  }
+  .vl {
+   border-radius: 20px;
+  display: flex;
+  background-position: center;
+    position: relative;
+    background:
+     linear-gradient(0deg, black, rgb(66, 7, 7),rgb(44, 36, 78) );
+      height: 1000px;
+      width: 15px;
+      top: 50px;
+      left: 50%;
+      justify-content: center;
+     }
+  .glow ::before,.glow::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background:
+     linear-gradient(45deg, red, rgb(24, 101, 131),orange,green,orange,white ,
+    red,yellow  );
+      background-size: 400%;
+      width: calc(100% + 5px);
+      height: calc(100% + 5px);
+      z-index: -1;
+      animation: animate 10s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+      background-position: 0 0;
+    }
+    50%{
+      background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+  }
+  .glow::after{
+    filter: blur(10px);
+   
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  
+  }
+  .Age
+  {	
+      
+      display: flex;
+      justify-content: center;
+      letter-spacing: 1px;
+      position: relative; 
+      top: -900px; 
+      width: 100%;
+  }
+  .Age img 
+  {
+    width:70px;
+    height: 70px;
+      border: 1px solid white;
+      border-radius: 50px;
+      position: relative;
+      left: 660px;
+      background-color: #011627;
+      
+  }
+  .Age  div
+  {	
+      border: 1px solid white;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      position: relative;
+      width: 350px;
+      left: 1045px;
+      font-size: 10px;
+  
+      color: white;
+      background: linear-gradient(90deg, hsla(339, 81%, 31%, 1) 0%, hsla(197, 57%, 35%, 1) 99%);
+  
+  }
+  .Age div p
+  {
+      position: relative;
+      top: 13px;
+  
+  }
+  .Age div span
+  {
+      position: relative;
+      left: 40px;
+      font-size: 20px;
+  }
+  
+  .Address
+  {	
+      display: flex;
+      justify-content: center;
+      letter-spacing: 1px;
+      position: relative; 
+      top:-500px; 
+      width: 100%;
+  }
+  .Address img 
+  {
+     width:70px;
+     height: 70px;
+      border: 1px solid white;
+      border-radius: 50px;
+      position: relative;
+      left: -125px;
+      background-color: #011627;	
+  }
+  .Address  div
+  {	
+      border: 1px solid white;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      position: relative;
+      width: 350px;
+      left:260px;
+      font-size: 10px;
+      color: white;
+      background: linear-gradient(90deg, hsla(339, 81%, 31%, 1) 0%, hsla(197, 57%, 35%, 1) 99%);
+  
+  }
+  .Address div p
+  {
+      position: relative;
+      
+      top: 9px;
+  
+  }
+  .Address div span
+  {
+      position: relative;
+      left: 40px;
+      font-size: 20px;
+  }
+  
+  .Contact
+  {	
+      display: flex;
+      justify-content: center;
+      letter-spacing: 1px;
+      position: relative; 
+      top:-100px; 
+      width: 100%;
+  }
+  .Contact img 
+  {
+    width:70px;
+    height: 70px;
+      border: 1px solid white;
+      border-radius: 50px;
+      position: relative;
+      left: -1000px;
+      background-color: #011627;
+      
+  }
+  .Contact  div
+  {	
+      border: 1px solid white;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      position: relative;
+      width: 350px;
+      left: -609px;
+      font-size: 10px;
+      
+      color: white;
+      background: linear-gradient(90deg, hsla(339, 81%, 31%, 1) 0%, hsla(197, 57%, 35%, 1) 99%);
+  
+  }
+  .Contact div p
+  {
+      position: relative;
+      top: 13px;
+  
+  }
+  .Contact div span
+  {
+      position: relative;
+      left: 40px;
+      font-size: 20px;
+  }
+  .Birthday
+  {	
+      
+      display: flex;
+      justify-content: center;
+      letter-spacing: 1px;
+      position: relative; 
+      top:-700px; 
+      width: 100%;
+  }
+  .Birthday img 
+  {
+    width:70px;
+    height: 70px;
+      border: 1px solid white;
+      border-radius: 50px;
+      position: relative;
+      left: -300px;
+      background-color: #011627;
+      
+  }
+  
+  .Birthday div p
+  {
+      position: relative;
+      top: 9px;
+  
+  }
+  .Birthday div span
+  {
+      position: relative;
+      left: 23px;
+      font-size: 20px;
+  }
+  .Birthday img 
+  {
+    width:70px;
+    height: 70px;
+      border: 1px solid white;
+      border-radius: 50px;
+      position: relative;
+      left: 265px;
+      background-color: #011627;
+      
+  }
+  .Birthday  div
+  {	
+      border: 1px solid white;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      position: relative;
+      width: 350px;
+      left: 305px;
+      font-size: 10px;
+      
+      color: white;
+      background: linear-gradient(90deg, hsla(339, 81%, 31%, 1) 0%, hsla(197, 57%, 35%, 1) 99%);
+  
+  }
+  .Birthday div p
+  {
+      position: relative;
+      top: 9px;
+  
+  }
+  .Birthday div span
+  {
+      position: relative;
+      left: 23px;
+      font-size: 20px;
+  }
+  .Email
+  {	
+      
+      display: flex;
+      justify-content: center;
+      letter-spacing: 1px;
+      position: relative; 
+      top:-300px; 
+      width: 100%;
+  }
+  
+  
+  
+  .Email div p
+  {	
+      position: relative;
+      top: 9px;
+  }
+  .Email div span
+  {
+      position: relative;
+      left: 23px;
+      font-size: 20px;
+  }
+  .Email img 
+  {
+    width:70px;
+    height: 70px;
+      border: 1px solid white;
+      border-radius: 50px;
+      position: relative;
+      left: -511px;
+      background-color: #011627;
+      
+  }
+  .Email  div
+  {	
+      border: 1px solid white;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      position: relative;
+      width: 350px;
+      left: -472px;
+      font-size: 10px;
+      color: white;
+      background: linear-gradient(90deg, hsla(339, 81%, 31%, 1) 0%, hsla(197, 57%, 35%, 1) 99%);
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
