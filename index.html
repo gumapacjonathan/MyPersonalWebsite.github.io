@@ -1,183 +1,281 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <mata name="viewport" content="width=device-width, initial-scale=1.0">
-     
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-     <link rel="stylesheet" href="style.css">
-  
-     
-    </head>
+    <title>responsive personal portfolio website design tutorail</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <title>
-  MyPprtfolio
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="imageviewer.css">
 
-    </title> 
-    <body>
-      
-        <div class="parent">
-            <img class="image1" src="IMG_20210108_172533.jpg" />
-            <img class="image2" src="IMG_20210123_141027.jpg" />
-          </div>
-          <br>
-          <br>
-          <br>
-     
-          <br>
-            <br>
-            <br>
-            <br>  
-            <br>
-            <br>
-            <center> <h3 style="color: aliceblue;">HELLO I AM!</h3></center>
-            <center><b> <h1 style="color: rgb(204, 150, 49);">JONATHAN C. GUMAPAC</h1></center></b>
-            <center> <h3 style="color: aliceblue;">( BATCHELOR OF SCIENCE INFORMATION TECHNOLOGY )</h3></center>
-            <center> <p style="color: aliceblue;">I'm a website developer I love with programming </p></center>  
-            <center> <p style="color: aliceblue;">and dicover a new world in dustry of programming </p></center>
-         
-             <br>
-             <div class="line"></div>
-            
-              <center> <h2  style="color: rgb(204, 150, 49);">General info</h2></center>
-            
-              <div class="vl glow"></div>
-              <div class="container">
-               
-           
-              
-               <div class="Age" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false" > 
-                 <div><p><span>21 YEARS OLD</span></p></div>
-                <img  src="Age.png">
-              </div>
-              <div class="Birthday" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" > 
-                <div><p><span>OCTOBER 28,2000</span></p></div>
-               <img  src="Birthday.png">
-              </div>
-              <div class="Address" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false" > 
-                <div><p><span>Purok 2 cabacungan 
-                              Nabunturan Davao de Oro</span></p></div>
-               <img  src="Address.png">
-             </div>
-             <div class="Email" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" > 
-              <div><p><span>jonathan.gumapac@jmc.edu.ph</span></p></div>
-             <img  src="Email.png">
-            </div>
-            <div class="Contact" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false" > 
-              <div><p><span>09296672655</span></p></div>
-             <img  src="Phone.png">
-             </div> 
+</head>
+<body>
     
+<!-- header section starts  -->
+
+<header>
+    <i class="fas fa-bars"></i>
+    <div class="user">
+        <img src="IMG_20210123_141027.jpg" alt="">
+        <h3 class="name">Jonathan Gumapac</h3>
+        <p class="post">front end developer</p>
     </div>
-    
-    
-           <button type="button">Click Me!</button>     <button type="button">Click Me!</button>
-           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-           <script>
-             AOS.init({
-               duration: 3000,
-               once: true,
-             });
-           </script>
-        <table width = "100%" border="1px">
-             
-                <p style="text-align:center;font-size:30px;">BSIT - 3 </p>       
 
-            <tr>
-                <td style="text-align:center;"><b>Subject Code</b></td>
-                <td style="text-align:center;"><b>Description</b></td>
-                <td style="text-align:center;"><b>Schedule</b></td>
-                <td style="text-align:center;"><b>Teacher</b></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="text-align:center;">WH </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>IT Elect 3 </td>
-                <td>IT Elective 3 </td>
-                <td>9:00-11:30 </td>
-                <td>AARON VERGARA </td>
-            </tr>
-            <tr>
-                <td>EDP 101 </td>
-                <td>Event-Driven Programming </td>
-                <td>12:30-2:00 </td>
-                <td>MASCULINO </td>
-            </tr>
-            <tr>
-                <td>IM 101 </td>
-                <td>Advance Database System	</td>
-                <td>2:00-4:30 </td>
-                <td>MARK SABILI </td>
-            </tr>
-            <tr>
-                <td>SAD 101 </td>
-                <td>System Analysis and Design </td>
-                <td>4:30-6:00 </td>
-                <td>BULADACO </td>
-            </tr>      
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="text-align:center;">TTh </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>MAP 101	</td>
-                <td>Mobile Application Development 1 </td>
-                <td>8:00-10:30 </td>
-                <td>ENUMERABLES </td>
-            </tr>
-            <tr>
-                <td>SIA 101	</td>
-                <td>System Integration and Architecture	</td>
-                <td>1:00-3:30 </td>
-                <td>SABILI </td>
-            </tr>
-            <tr>
-                <td>IAS 101 </td>
-                <td>Information Assurance and Security 1 </td>
-                <td>3:30-5:00 </td>
-                <td>MIA BAJAN </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td style="text-align:center;">FRI </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>SF 5 </td>
-                <td>Student Formation 5	</td>
-                <td>9:00-12:00 </td>
-                <td>MIA BAJAN </td>
-            </tr>
-            <tr>
-                <td>NET 102	</td>
-                <td>Networking 2 </td>
-                <td>4:00-6:30 </td>
-                <td>CLARO </td>
-            </tr>      <tr>
-                <td></td>
-                <td></td>
-                <td style="text-align:center;">SAT </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>NET 102	</td>
-                <td>Networking 2 </td>
-                <td>4:00-6:30 </td>
-                <td>CLARO </td>
-            </tr>
-            
-        </table>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">Certification</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Jonathan C. Gumapac</span></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed magnam tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, at.
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+ 
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="vl glow"></div>
+    <div class="container"> 
+        <div class="Age" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false" > 
+          <div><p><span>21 YEARS OLD</span></p></div>
+         <img  src="Age.png">
+       </div>
+       <div class="Birthday" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" > 
+         <div><p><span>OCTOBER 28,2000</span></p></div>
+        <img  src="Birthday.png">
+       </div>
+       <div class="Address" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false" > 
+         <div><p><span>Purok 2 cabacungan 
+                       Nabunturan Davao de Oro</span></p></div>
+        <img  src="Address.png">
+      </div>
+      <div class="Email" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" > 
+       <div><p><span>jonathan.gumapac@jmc.edu.ph</span></p></div>
+      <img  src="Email.png">
+     </div>
+     <div class="Contact" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false" > 
+       <div><p><span>09296672655</span></p></div>
+      <img  src="Phone.png">
+      </div> 
+
+</div>
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>Certificates</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-certificate"></i>
+        <span>2021</span>
+        <h3>Huawie Storage</h3>
+        <div class="images">&times;
+            <img src="storage.jpg" alt="" width="300" height="200">
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-certificate"></i>
+        <span>2021</span>
+        <h3>HCIA-AI Course</h3>
+        <div class="images">&times;
+            <img src="HCIA.png" alt="" width="300" height="200">
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-certificate"></i> <i class="fad fa-file-certificate"></i>
+        <span>2021</span>
+        <h3>Pyhthon Programming Basics</h3>
+        <div class="images">&times;
+            <img src="pythone.png" alt="" width="300" height="200">
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-certificate"></i>
+        <span>2021</span>
+        <h3>Math Basics</h3>
+        <div class="images">&times;
+            <img src="math.png" alt="" width="300" height="200">
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-certificate"></i>
+        <span>2021</span>
+        <h3>PowerPoint</h3>
+        <div class="images">&times;
+            <img src="GUMAPAC.png" alt="" width="300" height="200">
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-certificate"></i>
+        <span>2021</span>
+        <h3>Ms Word</h3>
+        <div class="images">&times;
+            <img src="mswordJonathan Gumapac.png" alt="" width="300" height="200">
+        </div> 
+    </div>
+
+</div>
+
+</section>
+<div id="image-viewer">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="full-image">
+  </div>
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>portfolio</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="activity1.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img2.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img3.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img4.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img5.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img6.jpg" alt="">
+    </div>
+
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> jonathan.gumapac@jmc.edu.ph </h3>
+            <h3> <i class="fas fa-phone"></i> 639396672655 </h3>
+            <h3> <i class="fas fa-phone"></i> 639639669082 </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Purol 2 Cabacungan Nabunturan, Davao de Oro 8800 </h3>
+        </div>
+
+    </div>
+
+    <form action="https://formcarry.com/s/3isKmkzowJr" method="POST" >
+                                            
 
 
-        <iframe style width = "100%" height="800px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSoi6JsfCQquKDGKVbQT0WCkHZXVApmNnf0xMxo0uKY4LAwwOjSdY7dLX2QRPvQ1w/pubhtml?widget=true&amp;headers=false"></iframe>
-        <iframe style width = "100%" height="800px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTvdWPobWEAQaF-HXw0YQkmCCu3qCXYoyteUx6kCn0KNziIArjZ6vXrKBmsLC_n7WDKwGm2M6J-8KWo/pubhtml?widget=true&amp;headers=false"></iframe>
-    </body>  
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
 
-    </html>
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="js.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 3000,
+    once: true,
+  });
+</script>
+
+</body>
+</html>
