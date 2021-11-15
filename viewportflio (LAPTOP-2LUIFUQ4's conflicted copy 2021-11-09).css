@@ -1,0 +1,300 @@
+body{
+	
+	background-color: #011627;
+	margin:0;
+	padding: 0;
+	font-family: 'Didact Gothic', sans-serif;
+	overflow-x: hidden;
+	height: 100%;
+
+
+
+ }
+.circle
+{
+	position: absolute;
+	top: -150px;
+	border-radius:200px;
+	width: 100%;
+	height: 326px;
+	background: linear-gradient(0deg, hsla(197, 56%, 35%, 1) 0%, hsla(294, 83%, 25%, 1) 100%);
+
+	
+}
+.sidenav .circle a
+{	
+	top: 120px;
+	
+}
+
+
+ .sidenav {
+
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:  0;
+  left:0;
+ background-color: #011627;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.Profile 
+{
+	height: 200px;
+	width: 100%;
+ 	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 100px;
+}
+.Profile .about
+{
+	
+	position: relative;
+	
+}
+
+
+.Profile a img
+{	
+	position: relative;
+	top: 2px;
+	border-radius: 20px;
+	border-color: red ;
+	border: 5px solid #011627;
+}
+.name
+{
+	letter-spacing: 1px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	top: 230px;
+}
+.name p
+{
+	color: white;
+}
+.About
+{	
+	letter-spacing: 1px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	top: 250px;
+
+}	
+.About p
+{
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	padding: 10px;
+}
+.VerticalLine
+{	
+	
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 320px;
+	width: 100%;
+	height: 360px;
+
+}
+.VerticalLine .Line
+{
+
+	
+	background-color: #00f5d4;
+	width: 2px;
+	height: 325px;
+	position: absolute;
+	left: 20px;
+
+}
+.VerticalLine .Skills
+{	
+	letter-spacing: 1px;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	color: white;
+	font-size: 13px;
+}
+.VerticalLine .Skills .fa
+{	
+	position: relative;
+	top: -1px;
+	left: 5px;
+}
+.VerticalLine .html5
+{	
+	
+	
+	border-radius: 10px;
+	background-color: #495057;
+	position: absolute;
+	left: 30px;
+	top: 60px;
+	padding: 10px;
+
+
+}
+.VerticalLine .html5 p
+{	
+	position: absolute;
+	top: 45px;
+	left: 20px;
+	text-align: center;
+	font-size: 11px;
+	color: #adb5bd;
+
+}
+.VerticalLine .java
+{	
+	
+	
+	border-radius: 10px;
+	background-color: #495057;
+	position: absolute;
+	left: 115px;
+	top: 60px;
+	padding: 10px;
+
+
+}
+.VerticalLine .java p
+{	
+	position: absolute;
+	top: 45px;
+	left: 11px;
+	text-align: center;
+	font-size: 11px;
+	color: #adb5bd;
+
+}
+.VerticalLine .bootstrap
+{	
+	
+	
+	border-radius: 10px;
+	background-color: #495057;
+	position: absolute;
+	left: 200px;
+	top: 60px;
+	padding: 10px;
+
+
+}
+.VerticalLine .bootstrap p
+{	
+	position: absolute;
+	top: 45px;
+	left: 12px;
+	text-align: center;
+	font-size: 11px;
+	color: #adb5bd;
+
+}
+.VerticalLine .photoshop
+{	
+	
+	
+	border-radius: 10px;
+	background-color: #495057;
+	position: absolute;
+	left: 30px;
+	top: 150px;
+	padding: 10px;
+
+
+}
+.VerticalLine .photoshop p
+{	
+	position: absolute;
+	top: 45px;
+	left: 10px;
+	text-align: center;
+	font-size: 11px;
+	color: #adb5bd;
+
+}
+.VerticalLine .filmora
+{	
+	
+	
+	border-radius: 10px;
+	background-color: #495057;
+	position: absolute;
+	left: 115px;
+	top: 150px;
+	padding: 10px;
+
+
+}
+.VerticalLine .filmora p
+{	
+	position: absolute;
+	top: 45px;
+	left: 18px;
+	text-align: center;
+	font-size: 11px;
+	color: #adb5bd;
+
+}
+.VerticalLine .unity
+{	
+	
+	
+	border-radius: 10px;
+	background-color: #495057;
+	position: absolute;
+	left:  200px;
+	top: 150px;
+	padding: 10px;
+
+
+}
+.VerticalLine .unity p
+{	
+	position: absolute;
+	top: 45px;
+	left: 23px;
+	text-align: center;
+	font-size: 11px;
+	color: #adb5bd;
+
+}
+.VerticalLine .php
+{	
+	
+	
+	border-radius: 10px;
+	background-color: #495057;
+	position: absolute;
+	left: 30px;
+	top: 240px;
+	padding: 10px;
+
+
+}
+.VerticalLine .php p
+{	
+	position: absolute;
+	top: 45px;
+	left: 26px;
+	text-align: center;
+	font-size: 11px;
+	color: #adb5bd;
+
+}
+
+
+
+
